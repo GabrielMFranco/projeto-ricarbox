@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastros</title>
+    <link rel="stylesheet" href="estilos/cadastros.css">
 </head>
 <body>
     <head>
@@ -45,10 +46,10 @@
                     <label for="iobs">Obs:</label><br>
                     <textarea name="obs" id="iobs" cols="30" rows="10"></textarea>
                 </p>
-                <p class="botao">
-                    <input type="submit" value="Enviar">
-                </p>
             </fieldset>
+            <p class="botao">
+                <input type="submit" value="Enviar">
+            </p>
         </div>
         <div id="Fornecedor">
             <legend>Fornecedor</legend>
@@ -58,7 +59,7 @@
                     <input type="number" name="num" id="inum">
                 </p>
                 <p class="dados">
-                    <label for="irs">Razão Social:</label>
+                    <label for="irs">R.Social:</label>
                     <input type="text" name="rs" id="irs">
                 </p>
                 <p class="dados">
@@ -68,6 +69,10 @@
                 <p class="dados">
                     <label for="iie">IE:</label>
                     <input type="text" name="ie" id="iie">
+                </p>
+                <p class="dados">
+                    <label for="icontato">Contato:</label>
+                    <input type="tel" name="contato" id="icontato" required placeholder="(xx)-xxxxx-xxxx">
                 </p>
                 <p class="dados">
                     <label for="iend">Endereço:</label>
@@ -81,10 +86,11 @@
                     <label for="iobs">Obs:</label><br>
                     <textarea name="obs" id="iobs" cols="30" rows="10"></textarea>
                 </p>
-                <p class="botao">
-                    <input type="submit" value="Enviar">
-                </p>
+                
             </fieldset>
+            <p class="botao">
+                <input type="submit" value="Enviar">
+            </p>
         </div>
     </main>
 </body>
