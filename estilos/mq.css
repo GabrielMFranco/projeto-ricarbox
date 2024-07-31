@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px){
+   body{
+        background:black url(../imagens/fundo.pqn.png) no-repeat center;
+        background-size: cover;
+   }
+   section{
+        width: 600px;
+        height: 300px;
+   }  
+}
