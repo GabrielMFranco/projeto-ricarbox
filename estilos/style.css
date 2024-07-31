@@ -31,6 +31,7 @@ section{
     transform: translate(-50%,-50%);
     text-align: center;
     overflow: hidden;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.24);
 }
 header{
     background-color: #173540; 
@@ -40,8 +41,26 @@ header{
 main{
     padding-top: 30px;
 }
+p{
+    padding: 5px;
+}
 p.botao{
     padding: 10px;
     
+}
+input[type=submit]{
+    background-color:var(--cor1);
+    color: white;
+    font-size: 1em;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.336);
+    overflow: hidden;
+    width: 150px;
+    height: 30px;
+}
+input[type=submit]:hover{
+    background-color: rgb(1, 77, 1);
+    font-weight: bolder;
 }
 
