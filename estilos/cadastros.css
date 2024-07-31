@@ -37,6 +37,7 @@ div{
 }
 p.dados{
     font-size: 1.2em;
+    text-align: left;
 }
 input{
     height: 20px;
