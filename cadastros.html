@@ -14,8 +14,12 @@
             <legend>Cliente</legend>
             <fieldset>
                 <p class="dados">
+                    <label for="inum">N°</label>
+                    <input type="number" name="num" id="inum">
+                </p>
+                <p class="dados">
                     <label for="inome">Nome:</label>
-                    <input type="text" name="nome" id="inome">
+                    <input type="text" name="nome" id="inome" required>
                 </p>
                 <p class="dados">
                     <label for="icpf">CPF:</label>
@@ -27,7 +31,7 @@
                 </p>
                 <p class="dados">
                     <label for="icontato">Contato:</label>
-                    <input type="tel" name="contato" id="icontato">
+                    <input type="tel" name="contato" id="icontato" required placeholder="(xx)-xxxxx-xxxx">
                 </p>
                 <p class="dados">
                     <label for="iend">Endereço:</label>
@@ -49,6 +53,10 @@
         <div id="Fornecedor">
             <legend>Fornecedor</legend>
             <fieldset>
+                <p class="dados">
+                    <label for="inum">N°</label>
+                    <input type="number" name="num" id="inum">
+                </p>
                 <p class="dados">
                     <label for="irs">Razão Social:</label>
                     <input type="text" name="rs" id="irs">
